@@ -52,3 +52,28 @@ function squareroot()
 {
     result.value=result.value**(0.5);
 }
+function epowerx()
+{
+    result.value=Math.exp(result.value);
+}
+function tenpowerx()
+{
+    result.value=10**result.value;
+}
+function xsquare()
+{
+    result.value=result.value**2;
+}
+function sineinv()
+{
+    result.value=Math.asin(result.value);
+}
+function cosinv()
+{
+    result.value=Math.acos(result.value);
+}
+function taninv()
+{
+    result.value=Math.atan(result.value);
+}
+
