@@ -1,4 +1,26 @@
 let result=document.getElementById("answer");
+function calculate(num)
+{
+    
+    result.value+=num;
+}
+function equals(){
+    
+    result.value=eval(result.value);
+
+}
+function clearresult()
+{
+    
+    result.value='';
+
+}
+function clearlast(){
+   
+    var len=result.value.length;
+    result.value=result.value.substring(0,len-1);
+
+}
 function sinvalue()
 {
     

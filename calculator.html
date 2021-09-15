@@ -9,11 +9,15 @@
     <link rel="stylesheet" type="text/css"href="./darkcal.css" id="theme">
 </head>
 <body>
+    
     <div class="container">
+        <div id="choose">
+            <input type="button" value="radian" id="workingtype" onclick="working()">
+        </div>
         <div id="toggle">
             <input type="button" value="Dark theme" id="switch" onclick="togglemode()">
         </div>
-        <h1>CALCULATOR</h1>
+        <h1> SCIENTIFIC CALCULATOR</h1>
         <form name="forms">
             <div class="calc">
                 <input type="text" value="" name="screen" id="answer" disabled placeholder="">
@@ -68,7 +72,7 @@
 
     </div>
     <script src="calcula.js"></script>
-    <script src="trignometric.js"></script>
+    <script src="trignometricradian.js" id="chooseworking"></script>
     
 
     
