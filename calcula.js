@@ -19,15 +19,19 @@ function working()
 {
     let changetheme=document.getElementById("colchange");
     let changevalue=document.getElementById("workingtype");
-    if(changetheme.getAttribute("href")==="radian.css")
+    let worktype=document.getElementById("chooseworking")
+    if(changetheme.getAttribute("href")==="radian.css" && worktype.getAttribute("src")==="trignometricradian.js" )
     {
         changetheme.href="degree.css";
         changevalue.value="degree";
+        worktype.src="trignometricdegree.js";
 
     }
     else{
         changetheme.href="radian.css";
         changevalue.value="radian";
+        worktype.src="trignometricradian.js";
+        
 
 
     }

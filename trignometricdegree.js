@@ -23,18 +23,21 @@ function clearlast(){
 }
 function sinvalue()
 {
+    let temp=(result.value*Math.PI)/180;
     
-    result.value=Math.sin(result.value);
+    result.value=Math.sin(temp);
 }
 function cosvalue()
 {
+    let temp=(result.value*Math.PI)/180;
    
-    result.value=Math.cos(result.value);
+    result.value=Math.cos(temp);
 }
 function tanvalue()
 {
+    let temp=(result.value*Math.PI)/180;
     
-    result.value=Math.tan(result.value);
+    result.value=Math.tan(temp);
 }
 function logbase10(){
     result.value=Math.log10(result.value);
@@ -48,7 +51,7 @@ function naturallog()
 }
 function pivalue()
 {
-    result.value+=3.14159265359;
+    result.value+=Math.PI;
 
 }
 function evalue()
@@ -88,14 +91,14 @@ function xsquare()
 }
 function sineinv()
 {
-    result.value=Math.asin(result.value);
+    result.value=(Math.asin(result.value)*180)/Math.PI;
 }
 function cosinv()
 {
-    result.value=Math.acos(result.value);
+    result.value=(Math.acos(result.value)*180)/Math.PI;
 }
 function taninv()
 {
-    result.value=Math.atan(result.value);
+    result.value=(Math.atan(result.value)*180)/Math.PI;
 }
 
