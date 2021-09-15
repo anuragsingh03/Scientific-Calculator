@@ -15,3 +15,22 @@ function togglemode()
 
     }
 }
+function working()
+{
+    let changetheme=document.getElementById("colchange");
+    let changevalue=document.getElementById("workingtype");
+    if(changetheme.getAttribute("href")==="radian.css")
+    {
+        changetheme.href="degree.css";
+        changevalue.value="degree";
+
+    }
+    else{
+        changetheme.href="radian.css";
+        changevalue.value="radian";
+
+
+    }
+
+
+}
