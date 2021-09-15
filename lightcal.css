@@ -1,0 +1,59 @@
+.container{
+   height:100vh;
+   width: 210vh;
+   background: rgb(228, 198, 198);
+   padding-top: 70px;
+   text-align: center;
+}
+#toggle{
+    color: white;
+    display: inline-block;
+    padding-left: 800px;
+    padding-top: 30px;
+}
+
+#switch{
+    font-size:20px;
+     width: 200px;
+     height: 40px;
+     margin:10px;
+    border-radius: 15px;
+    background-color: black;
+    color:white;
+
+
+}
+#answer{
+    width: 344px;
+    border-radius: 10px;
+    background-color:rgb(245, 234, 234);
+    box-shadow: inset 5px 5px 3px rgb(62, 63, 61),
+    inset -5px -5px 3px white;
+}
+.calc{
+    background-color: #2fa3bd;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    border-radius: 15px;
+
+}
+input{
+    font-size:30px;
+    width: 100px;
+    height: 80px;
+    margin:10px;
+    border-radius: 15px;
+    border:none;
+    background-color:rgb(245, 234, 234);
+    box-shadow: inset 5px 5px 3px white,
+    inset -5px -5px 3px rgb(62, 63, 61);
+
+}
+
+input:hover{
+    background-color: teal;
+    box-shadow: inset 5px 5px 3px rgb(62, 63, 61),
+    inset -5px -5px 3px white;
+}
+
+
