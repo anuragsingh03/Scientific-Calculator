@@ -11,10 +11,17 @@ function equals(){
 function clearresult()
 {
     var result=document.getElementById("answer");
+    result.value='';
+
+}
+function clearlast(){
+    var result=document.getElementById("answer");
     var len=result.value.length;
     result.value=result.value.substring(0,len-1);
 
 }
+
+
 function togglemode()
 {
     let changetheme=document.getElementById("theme");
