@@ -24,26 +24,26 @@ function clearlast(){
 function sinvalue()
 {
     
-    result.value=(Math.sin(result.value)).toFixed(4);
+    result.value=Math.sin(result.value);
 }
 function cosvalue()
 {
    
-    result.value=(Math.cos(result.value)).toFixed(4);
+    result.value=Math.cos(result.value);
 }
 function tanvalue()
 {
     
-    result.value=(Math.tan(result.value)).toFixed(4);
+    result.value=Math.tan(result.value);
 }
 function logbase10(){
-    result.value=(Math.log10(result.value)).toFixed(4);
+    result.value=Math.log10(result.value);
 
 
 }
 function naturallog()
 {
-    result.value=(Math.log(result.value)).toFixed(4);
+    result.value=Math.log(result.value);
 
 }
 function pivalue()
@@ -72,31 +72,31 @@ function factorialvalue()
 }
 function squareroot()
 {
-    result.value=(result.value**(0.5)).toFixed(4);
+    result.value=result.value**(0.5);
 }
 function epowerx()
 {
-    result.value=(Math.exp(result.value)).toFixed(4);
+    result.value=Math.exp(result.value);
 }
 function tenpowerx()
 {
-    result.value=(10**result.value).toFixed(4);
+    result.value=10**result.value;
 }
 function xsquare()
 {
-    result.value=(result.value**2).toFixed(4);
+    result.value=result.value**2;
 }
 function sineinv()
 {
-    result.value=(Math.asin(result.value)).toFixed(4);
+    result.value=Math.asin(result.value);
 }
 function cosinv()
 {
-    result.value=(Math.acos(result.value)).toFixed(4);
+    result.value=Math.acos(result.value);
 }
 function taninv()
 {
-    result.value=(Math.atan(result.value)).toFixed(4);
+    result.value=Math.atan(result.value);
 }
 function comma(val)
 {

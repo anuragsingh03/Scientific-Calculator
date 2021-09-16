@@ -20,7 +20,7 @@ function working()
     let changetheme=document.getElementById("colchange");
     let changevalue=document.getElementById("workingtype");
     let worktype=document.getElementById("chooseworking")
-    if(changetheme.getAttribute("href")==="radian.css" )
+    if(worktype.getAttribute("src")==="trignometricradian.js" )
     {
         changetheme.href="degree.css";
         changevalue.value="degree";
