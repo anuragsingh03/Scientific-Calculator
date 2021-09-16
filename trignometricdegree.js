@@ -101,4 +101,9 @@ function taninv()
 {
     result.value=(Math.atan(result.value)*180)/Math.PI;
 }
+function comma(val)
+{
+    result.value+=val;
+}
+
 
