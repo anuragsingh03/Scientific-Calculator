@@ -23,8 +23,16 @@ function clearlast(){
 }
 function sinvalue()
 {
+    if(checkdegree())
+    {
+        var val=converttoradian();
+        result.value=Math.sin(val);
+    }
+    else{
+        result.value=Math.sin(result.value);
+    }
     
-    result.value=Math.sin(result.value);
+    
 }
 function cosvalue()
 {
@@ -109,4 +117,15 @@ function xpowery()
     let y=temp[1];
     result.value=x**y;
 }
-
+function converttoradian()
+{
+    let temp=(result.value*Math.PI)/180;
+    return temp;
+    
+    
+}
+function checkdegree()
+{
+    let x=document.getElementById("workingtype");
+    return x.value.equals("degree");
+}
