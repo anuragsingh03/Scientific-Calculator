@@ -1,4 +1,4 @@
-# This project that i have made is scientific calculator. As we knows scientific calculator designed to help you calculate science, engineering, and mathematics problems.
+This project that i have made is scientific calculator. As we knows scientific calculator designed to help you calculate science, engineering, and mathematics problems.
 It has way more buttons than your standard calculator that just lets you do your four basic arithmetic operations of addition, subtraction, multiplication, and division.
 Extra buttons allow you to work with various kinds of numbers and problems such as these:
 Trigonometry problems,
